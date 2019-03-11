@@ -1,3 +1,5 @@
+[![Waffle.io - Issues in progress](https://badge.waffle.io/JSmith23/sweater_weather_FE.png?label=in%20progress&title=In%20Progress)](http://waffle.io/JSmith23/sweater_weather_FE)
+
 # Self-Directed Front-End Start Kit
 
 ## Initial Setup
