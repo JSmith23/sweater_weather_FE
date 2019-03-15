@@ -203,6 +203,7 @@ nav {
 #future {
   margin-bottom: 10%;
   padding: 0 10%;
+  display: flex;
 }
 #future > .container {
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
@@ -281,10 +282,8 @@ nav {
     margin-bottom: 3%;
   }
   #future > .container {
-    border-bottom: none;
-    float: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
     padding: 20px;
-    width: 33.33%;
   }
   #future > .container:first-child {
     border-top: none;
@@ -294,13 +293,13 @@ nav {
   }
   #future .day,
   #future p {
-    text-align: center;
+    text-align: left;
   }
   #future .weatherIcon {
     font-size: 0.56em;
     float: none;
     height: 60px;
-    margin: 10% auto 5%;
+    margin: 3% auto 5%;
     width: 60px;
   }
   footer {
@@ -322,5 +321,24 @@ nav {
   }
   #lastUpdated {
     padding: 3%;
+  }
+}
+
+#hourly-forecast {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+
+  .weatherIcon {
+    height: 50px;
+    width: 50px;
+  }
+
+  .temp {
+    font-size: 14px;
+  }
+
+  .hour-container {
+    margin: 0 15px;
   }
 }
