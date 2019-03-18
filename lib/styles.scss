@@ -341,4 +341,20 @@ nav {
   .hour-container {
     margin: 0 15px;
   }
+  &.hidden {
+    display: none;
+  }
+}
+
+.hide-btn {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 2rem;
+  border-radius: 5px;
+  border: 2px solid #ffd632;
+}
+
+#future {
+  &.hidden {
+    display: none;
+  }
 }
