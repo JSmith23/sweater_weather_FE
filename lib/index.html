@@ -19,17 +19,12 @@
         </button>
       </div>
       <!-- Current Weather -->
-      <div id="current" class="wrapper">
-        <h1 class="location">Denver, CO</h1>
-        <h2 class="date">Sunday, January 1, 2017</h2>
-        <div class="weatherIcon">
-          <div class="sunny">
-            <div class="inner"></div>
-          </div>
-        </div>
-        <p class="temp">72</p>
-        <p class="conditions">Sunny</p>
-      </div>
+      <select id="weather-location">
+        <option value="denver,co">Denver, CO</option>
+        <option value="chicago,il">Chicago, IL</option>
+        <option value="miami,fl">Miami, FL</option>
+      </select>
+      <div id="current" class="wrapper">Loading...</div>
       <div id="hourly-forecast">Loading...</div>
       <button class="hide-btn" id="hide-hourly-btn" type="button">
         Hide hourly data
